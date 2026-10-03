@@ -1,0 +1,85 @@
+site_name: Scopometry
+site_description: Open research on sizing engineering tasks and measuring productivity in AI-assisted, agentic software delivery.
+site_url: https://adnansharif.github.io/scopometry/
+repo_url: https://github.com/adnanSharif/scopometry
+repo_name: adnanSharif/scopometry
+edit_uri: edit/main/docs/
+copyright: Content licensed under CC BY 4.0
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Task Points:
+      - Guide: task-points/guide.md
+      - Quick guide: task-points/quick-guide.md
+      - Specification: task-points/specification.md
+      - Life of a task: task-points/life-of-a-task.md
+      - Sizing procedure: task-points/sizing-procedure.md
+      - Requirements synthesis: task-points/requirements-synthesis.md
+  - Agentic SDLC:
+      - Handbook: agentic-sdlc/handbook.md
+      - Lifecycle short guide: agentic-sdlc/lifecycle-guide.md
+      - Operating plan: agentic-sdlc/operating-plan.md
+      - Human-orchestrated delivery: agentic-sdlc/human-orchestrated-delivery.md
+      - AI-assisted SDLC standard (earlier): agentic-sdlc/ai-assisted-sdlc-standard.md
+  - Measuring AI productivity:
+      - Dyno, Road & Destination: measurement/dyno-road-destination.md
+      - Worked example: measurement/worked-example.md
+      - Scope Points measurement (earlier): measurement/productivity-measurement.md
+  - Scope Points (earlier model):
+      - Overview: scope-points/overview.md
+      - Proposal: scope-points/proposal.md
+      - Sizing and crediting: scope-points/sizing-and-crediting.md
+      - Team guide: scope-points/team-guide.md
+      - Trial guide: scope-points/trial-guide.md
+      - Prompts and operations: scope-points/prompts-and-operations.md
+      - Pre-mortem: scope-points/pre-mortem.md
+  - Research:
+      - Evolution of the models: research/evolution.md
+      - Paper outline: research/paper-outline.md
+      - Open questions: research/open-questions.md
+      - References: research/references.md
+  - Contributing: contributing.md

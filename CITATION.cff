@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Scopometry: Sizing Engineering Tasks and Measuring Productivity in AI-Assisted, Agentic Software Delivery"
+type: report
+authors:
+  - family-names: Sharif
+    given-names: Adnan
+repository-code: "https://github.com/adnanSharif/scopometry"
+url: "https://adnansharif.github.io/scopometry/"
+license: CC-BY-4.0
+keywords:
+  - software estimation
+  - developer productivity
+  - AI-assisted software development
+  - agentic SDLC
+  - task points
