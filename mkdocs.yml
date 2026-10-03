@@ -55,10 +55,10 @@ nav:
   - Task Points:
       - Guide: task-points/guide.md
       - Quick guide: task-points/quick-guide.md
-      - Specification: task-points/specification.md
       - Life of a task: task-points/life-of-a-task.md
       - Sizing procedure: task-points/sizing-procedure.md
-      - Requirements synthesis: task-points/requirements-synthesis.md
+      - Specification (earlier, reference-task form): task-points/specification.md
+      - Requirements synthesis (earlier, reference-task form): task-points/requirements-synthesis.md
   - Agentic SDLC:
       - Handbook: agentic-sdlc/handbook.md
       - Lifecycle short guide: agentic-sdlc/lifecycle-guide.md

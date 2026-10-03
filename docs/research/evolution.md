@@ -33,7 +33,7 @@ Pages: [Method](../measurement/dyno-road-destination.md) · [Worked example](../
 
 ## 3. Task Points
 
-Moves the unit of sizing from the story to the **task**, so research, review, test planning, testing and defect work all earn points. The first form sized each task 1-13 by comparison with written reference tasks ([specification](../task-points/specification.md)). The current form replaces comparison with **counting**: an AI assistant counts units with quoted evidence, the person doing the task verifies the counts, and a fixed script maps counts to a size, with one-step triggers and planned or unplanned checkpoints ([guide](../task-points/guide.md)).
+Moves the unit of sizing from the story to the **task**, so research, review, test planning, testing and defect work all earn points. The first form sized each task by comparison with written reference tasks across four task types ([specification](../task-points/specification.md), [requirements synthesis](../task-points/requirements-synthesis.md)); both pages are kept as superseded history. The current form replaces comparison with **counting**: an AI assistant counts units with quoted evidence, the person doing the task verifies the counts, and a fixed script maps counts to a size, with one-step triggers and planned or unplanned checkpoints ([guide](../task-points/guide.md)). In the current form, reference tasks survive only as calibration fixtures for the bands and the quarterly blind re-count, never as sizing inputs.
 
 What carried over and what was dropped is listed in the [requirements synthesis](../task-points/requirements-synthesis.md#what-carries-over-from-scope-points).
 

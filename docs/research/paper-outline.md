@@ -13,7 +13,7 @@ AI coding agents change how software work is sliced, estimated and executed, whi
 1. **Introduction** — why AI-assisted delivery breaks existing productivity proxies; research questions.
 2. **Background and related work** — story points and estimation; functional size measurement (IFPUG, COSMIC); flow metrics; DORA and SPACE; controlled studies of AI coding assistants. See [References](references.md).
 3. **Design goals** — size independent of worker and tool; credit only proven work; no individual ranking; low overhead; resistance to gaming.
-4. **Task Points** — task types, units counted, bands, triggers, checkpoints, rework, reporting. Source: [guide](../task-points/guide.md), [specification](../task-points/specification.md), [life of a task](../task-points/life-of-a-task.md).
+4. **Task Points** — task types, units counted, bands, triggers, checkpoints, rework, reporting. Source: [guide](../task-points/guide.md), [life of a task](../task-points/life-of-a-task.md); earlier reference-task form: [specification](../task-points/specification.md).
 5. **Delivery model** — the agentic SDLC with risk tiers and gates in which the measures are collected. Source: [handbook](../agentic-sdlc/handbook.md).
 6. **Causal measurement: Dyno, Road & Destination** — design, statistics, safeguards. Source: [method](../measurement/dyno-road-destination.md).
 7. **Threats to validity** — pre-mortem failure scenarios, Goodhart effects, drift, small samples. Source: [pre-mortem](../scope-points/pre-mortem.md), [limitations](../measurement/dyno-road-destination.md#limitations-stated-honestly).

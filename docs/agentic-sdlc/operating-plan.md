@@ -179,9 +179,9 @@ The headline is **delivered points per available person-day** against the team's
 
 **Example (illustrative).** For an illustrative team of 11 people: 11 people x 10 working days - 6 days of leave = 104 person-days. 78 delivered points / 104 = 0.75 per person-day. Against a baseline of 0.68, the trend index is 1.10: about 10% more work completed per available day.
 
-- **Baseline:** the first sprints under this system, until at least 30 tasks are Done with at least 5 of each type, usually about three sprints. A new baseline starts after a failed quarterly check or when more than 30% of the team changes.
+- **Baseline:** the first sprints under this system, until at least 35 tasks are Done with at least 5 of each of the seven types, usually about three sprints. A new baseline starts after a failed quarterly check or when more than 30% of the team changes.
 - **Real change:** a trend counts only if it holds for two non-overlapping three-sprint periods and quality has not got worse.
-- **Trust:** each quarter, people who didn't do 8 random completed tasks re-size them blind. A gap over 20% (proposed) pauses trend reporting, the reference tasks are re-agreed and a new baseline starts.
+- **Trust:** each quarter, people who didn't do 8 random completed tasks re-count them blind with the same counting rules. A gap over 20% (proposed) pauses trend reporting, the counting rules and bands are re-agreed and a new baseline starts.
 - **Watch:** checkpoints above 30% of delivered points; more than 2 unplanned checkpoints in a sprint; 1 in 5 confirmations sampled for evidence; a sharp rise in tasks sized 1 or 2; sizing misses of 2 or more steps.
 
 **Rules of use.** Figures are for the team only. They are never targets or quotas and never used in appraisals, pay or headcount decisions. Teams are not compared. AI use is recorded as context and never feeds the productivity figure. A rising trend shows change, not its cause.
@@ -314,7 +314,7 @@ A stopped run leaves completed work, status, evidence, test results, the exact b
 | Prompt library, counting prompt and size script versioned in the repo or wiki | Team lead |
 | Issue tracker: points field, task type (7 values), checkpoint sub-tasks with evidence links, rework label, model and prompt version | Team lead |
 | Module registry: automated tests and shared, per module | Senior engineers |
-| 8-12 reference tasks across the types, each with its size and reason | Team lead with the team |
+| 8-12 reference tasks across the types, each with its counts, size and reason (calibration fixtures only; sizes always come from counts) | Team lead with the team |
 | Trial the counting prompt and script on 10 recent tasks; confirm the bands | Team lead |
 
 ## 10 Open decisions

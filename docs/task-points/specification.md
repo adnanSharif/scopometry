@@ -1,7 +1,7 @@
 # Task Points Specification: Measuring Task Effort Each Sprint
 
-!!! info "Status"
-    Current (v0.1 draft)
+!!! warning "Status"
+    Superseded: earlier, reference-task form of Task Points. Kept for research history; do not use it to size work. The current contract is count-based sizing across seven task types in the [Task Points Guide](guide.md).
 
     Lineage: Task Points, full specification (reference-task iteration). Sizing here compares each task with written reference tasks across four task types; the [Task Points Guide](guide.md) later replaced that with count-and-band sizing across seven types. Crediting, checkpoint, reporting and trust rules are shared by both.
 

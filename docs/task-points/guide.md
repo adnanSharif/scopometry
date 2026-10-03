@@ -130,7 +130,7 @@ Each sprint report shows the headline beside these measures, for the sprint and 
 | Reopened tasks | Tasks reopened after Done ÷ tasks Done |
 | Escaped defects per 100 points | Defects found after release ÷ delivered points × 100 |
 
-- **Baseline:** the first sprints under this system, until at least 30 tasks are Done with at least 5 of each type, usually about three sprints.
+- **Baseline:** the first sprints under this system, until at least 35 tasks are Done with at least 5 of each of the seven types, usually about three sprints.
 - **A real change** holds for two non-overlapping three-sprint periods while the quality measures have not got worse.
 - **The figures show whether** the team completes more per available day, not why. A change log of tool, people and process changes travels with every report.
 
@@ -140,7 +140,7 @@ Each sprint report shows the headline beside these measures, for the sprint and 
 
 1. The issue tracker: a points field on every issue and sub-task, a task type field with the seven types, checkpoint sub-tasks named "CP n of m: …" with points and an evidence link, a rework label, and fields for the AI model and prompt version used to count.
 2. A module registry: for each module, whether it has automated tests and whether it is shared. Triggers are read from it.
-3. Reference tasks: 8–12 real finished tasks covering the task types and a range of sizes, each with its size and the reason.
+3. Reference tasks: 8–12 real finished tasks covering the task types and a range of sizes, each with its counts, size and the reason. They are calibration fixtures only: used to confirm the bands at setup and as known cases in the quarterly check. New tasks are never sized by comparison with them; sizes always come from counts.
 4. Run the counting prompt and script on 10 recent tasks, then confirm or adjust the bands. All values here are v0.1 proposals and are reviewed again after the baseline.
 
 ### Every sprint
@@ -155,7 +155,7 @@ Each sprint report shows the headline beside these measures, for the sprint and 
 
 ### Keeping it honest
 
-- **Quarterly check.** The team lead picks 8 completed tasks at random. Two or three people who did not work on them re-size them blind. If the totals differ by more than 20%, trend reporting pauses, the team re-agrees the sizing guidance and a new baseline starts. A new baseline also starts when more than 30% of the team changes.
+- **Quarterly check.** The team lead picks 8 completed tasks at random. Two or three people who did not work on them re-count them blind with the same counting rules. If the totals differ by more than 20%, trend reporting pauses, the team re-agrees the sizing guidance and a new baseline starts. A new baseline also starts when more than 30% of the team changes.
 - **Look into it when** checkpoints exceed 30% of delivered points over three sprints, a sprint has more than 2 unplanned checkpoints, the share of tasks sized 1 or 2 rises sharply, or a task misses its size by 2 or more steps.
 - **Rules of use.** Figures are produced for the team only. They are never used as targets or quotas, in appraisals, pay or headcount decisions, or to compare teams.
 

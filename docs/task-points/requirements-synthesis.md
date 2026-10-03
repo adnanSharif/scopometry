@@ -1,7 +1,7 @@
 # Requirements Synthesis
 
-!!! info "Status"
-    Current (v0.1 draft)
+!!! warning "Status"
+    Superseded: earlier, reference-task form of Task Points. Kept for research history; do not use it to size work. The current contract is count-based sizing across seven task types in the [Task Points Guide](guide.md).
 
     Lineage: Task Points synthesis. Maps the requirements gathered during the [Scope Points](../scope-points/proposal.md) work, plus new management constraints, onto the Task Points model. A proposal for discussion, not a decided standard.
 

@@ -131,7 +131,7 @@ For the team lead. The setup checklist, sprint review sample, quarterly check, w
 | When | What |
 | --- | --- |
 | **Each sprint review** | Run the sprint review sample (1 in 5 slice records; each sampled commit must be in the merged pull request; a share whose commit is missing is reversed in the current sprint). Prepare the sprint report. |
-| **Each quarter** | Run the blind sizing check: eight completed tasks across the types are re-sized blind by people who did not work on them. A total difference over 20% pauses the trend and starts a new baseline. Any task re-sized two or more steps lower is examined on its own. |
+| **Each quarter** | Run the blind sizing check: eight completed tasks across the types are re-counted blind, with the same counting rules, by people who did not work on them. A total difference over 20% pauses the trend and starts a new baseline. Any task re-sized two or more steps lower is examined on its own. |
 | **Ongoing** | Settle disputes, including rework decisions. Agree, or refuse, lowering a triggered High risk level (written reason needed). Decide when a required model tier is unavailable; an approved downgrade is recorded on the slice record. Set work-in-progress limits. Sample reviews. |
 
 The team lead also watches four signals: shares whose task is not Dev Done within two sprints, more than 2 unplanned credits in a sprint, a rising share of 1–2 point tasks, and sizing misses of two or more steps.
