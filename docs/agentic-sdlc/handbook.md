@@ -337,14 +337,14 @@ Available person-days are every developer and QA engineer on the roster at the s
 | Reopened tasks | Tasks reopened after Done / tasks Done |
 | Escaped defects per 100 points | Defects found after release / delivered points x 100 |
 
-- **Baseline:** the first sprints under this handbook, until at least 30 tasks are Done with at least 5 of each type, and including at least one release. Tasks already in progress at adoption are left out.
+- **Baseline:** the first sprints under this handbook, until at least 35 tasks are Done with at least 5 of each of the seven types, and including at least one release. Tasks already in progress at adoption are left out.
 - **Rolling figures** sum points and days over three sprints, then divide. A change counts as real only if it holds for two non-overlapping three-sprint periods and quality has not got worse.
 - **A new baseline** starts after a failed quarterly check, when more than 30% of the team changes, or when the module registry's triggers change.
 
 ### Keeping the numbers honest
 
 - **Sprint review sample.** The team lead samples 1 in 5 slice records and checks that each sampled commit is in the merged pull request. A share whose commit is missing is reversed in the current sprint.
-- **Quarterly check.** Eight completed tasks across the types are re-sized blind by people who did not work on them. A total difference over 20% pauses the trend and starts a new baseline; any task re-sized two or more steps lower is examined on its own.
+- **Quarterly check.** Eight completed tasks across the types are re-counted blind, with the same counting rules, by people who did not work on them. A total difference over 20% pauses the trend and starts a new baseline; any task re-sized two or more steps lower is examined on its own.
 - **Watch:** shares whose task is not Dev Done within two sprints, more than 2 unplanned credits in a sprint, a rising share of 1-2 point tasks, and sizing misses of two or more steps.
 
 ### Other measures
@@ -387,6 +387,6 @@ Each area that gains automated checks lets agents verify their own work there, a
 | Review cap | About 400 changed lines and one hour per session; 2 sessions per reviewer per day |
 | Model tier per risk level | Economical, standard, strongest |
 | Task Points sizing values | Defined in the internal sizing procedure |
-| Baseline, drift tolerance, sample | 30 tasks with 5 per type and one release; 20%; 1 in 5 |
+| Baseline, drift tolerance, sample | 35 tasks with 5 per type (all seven types) and one release; 20%; 1 in 5 |
 
 Reviewed after the first quarter of use. Team-level use only.
